@@ -1,6 +1,6 @@
 class AdditionController < ApplicationController
   def show_addition_form
-    render({ :template => "addition_templates/add_form" })
+    render({ :template => "addition_templates/addition_form" })
   end
 
   def add_these
